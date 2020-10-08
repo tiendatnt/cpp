@@ -26,5 +26,6 @@ ID problem | URL | Remark
 
 ID problem | URL | Remark
 ---------- | --- | ------
+0104 | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | a binary tree
 0559 | https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ | a N-ary tree
 
