@@ -27,8 +27,7 @@ public:
             return 0;
 
         int maxDepthSubtree = 0;
-        maxDepthSubtree = max(maxDepthSubtree, maxDepth(root->left));
-        maxDepthSubtree = max(maxDepthSubtree, maxDepth(root->right));
+        maxDepthSubtree = max(maxDepth(root->right), maxDepth(root->left));
         return maxDepthSubtree + 1;
     }
 };
