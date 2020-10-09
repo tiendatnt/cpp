@@ -31,5 +31,6 @@ ID problem | URL | Remark
 0111 | https://leetcode.com/problems/minimum-depth-of-binary-tree/ | a binary tree
 0226 | https://leetcode.com/problems/invert-binary-tree/ | a binary tree
 0559 | https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ | a N-ary tree
+0872 | https://leetcode.com/problems/leaf-similar-trees/ | 2 binary trees
 0965 | https://leetcode.com/problems/univalued-binary-tree/ | a binary tree
 
