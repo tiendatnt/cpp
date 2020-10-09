@@ -30,4 +30,5 @@ ID problem | URL | Remark
 0110 | https://leetcode.com/problems/balanced-binary-tree/ | a binary tree
 0111 | https://leetcode.com/problems/minimum-depth-of-binary-tree/ | a binary tree
 0559 | https://leetcode.com/problems/maximum-depth-of-n-ary-tree/ | a N-ary tree
+0965 | https://leetcode.com/problems/univalued-binary-tree/ | a binary tree
 
