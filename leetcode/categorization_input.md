@@ -4,6 +4,7 @@
 
 ID problem | Problem | Solution | Remark
 ---------- | ------- | ---------| ------
+1688 | https://leetcode.com/problems/count-of-matches-in-tournament/ | [1688 solution](1688_Count_of_Matches_in_Tournament/solution.cpp)|
 
 
 ## 1.2. Multiple integers
