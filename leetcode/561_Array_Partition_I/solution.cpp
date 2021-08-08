@@ -27,9 +27,21 @@ private:
         return maxSum;
     }
 
+    int thirdSolution(vector<int>& nums) {
+        priority_queue<int> pq(nums.begin(), nums.end());
+
+        int maxSum = 0;
+        for (; !pq.empty(); pq.pop()) {
+            pq.pop();
+            maxSum += pq.top();
+        }
+        return maxSum;
+    }
+
 public:
     int arrayPairSum(vector<int>& nums) {
         //return firstSolution(nums);
-        return secondSolution(nums);
+        //return secondSolution(nums);
+        return thirdSolution(nums);
     }
 };
