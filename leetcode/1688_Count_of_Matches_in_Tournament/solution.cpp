@@ -15,9 +15,13 @@ private:
         }
         return matchesCnts;
     }
+    int thirdSolution(n) {
+        return n - 1;
+    }
 public:
     int numberOfMatches(int n) {
         //return firstSolution(n);
-        return secondSolution(n);
+        //return secondSolution(n);
+        return thirdSolution(n);
     }
 };
