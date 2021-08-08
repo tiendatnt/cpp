@@ -7,8 +7,17 @@ private:
         int currRoundMatchesCnts = n / 2;
         return currRoundMatchesCnts + numberOfMatches(currRoundMatchesCnts + n % 2);
     }
+    int secondSolution(int n) {
+        int matchesCnts = 0;
+        while (n > 1) {
+            matchesCnts += (n / 2);
+            n = (n / 2) + (n % 2);
+        }
+        return matchesCnts;
+    }
 public:
     int numberOfMatches(int n) {
-        return firstSolution(n);
+        //return firstSolution(n);
+        return secondSolution(n);
     }
 };
