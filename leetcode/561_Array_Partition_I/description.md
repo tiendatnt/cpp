@@ -21,8 +21,8 @@ So the maximum possible sum is 4.</pre>
 
 **Constraints:**
 
-*   `1 <= n <= 10<sup>4</sup>`
+*   `1 <= n <= 104`
 *   `nums.length == 2 * n`
-*   `-10<sup>4</sup> <= nums[i] <= 10<sup>4</sup>`
+*   `-104 <= nums[i] <= 104`
 
 </div>
