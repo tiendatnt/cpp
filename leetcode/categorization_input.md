@@ -18,6 +18,7 @@ ID problem | Problem | Solution | Remark
 
 ID problem | Problem | Solution | Remark
 ---------- | ------- | ---------| ------
+0561 | https://leetcode.com/problems/array-partition-i/ | [561 solution](561_Array_Partition_I/solution.cpp)|
 
 
 ## 2.2. N-D array
