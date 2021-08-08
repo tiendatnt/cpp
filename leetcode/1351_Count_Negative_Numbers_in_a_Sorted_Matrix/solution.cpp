@@ -77,11 +77,28 @@ private:
             fourthSolution(grid, nextMs, nextMe, nextNs, nextNe);
     }
 
+    int fifthSolution(vector<vector<int>>& grid) {
+        int negativeNumberCnts = 0;
+        int m = grid.size(), n = grid[0].size();
+
+        for (int i = 0, j = n - 1, tmp = m; i < m && j >= 0; ) {
+            if (grid[i][j] < 0) {
+                --j;
+                negativeNumberCnts += tmp;
+            } else {
+                ++i;
+                --tmp;
+            }
+        }
+        return negativeNumberCnts;
+    }
+
 public:
     int countNegatives(vector<vector<int>>& grid) {
         //return firstSolution(grid);
         //return secondSolution(grid);
         //return thirdSolution(grid);
-        return fourthSolution(grid, 0, grid.size(), 0, grid[0].size());
+        //return fourthSolution(grid, 0, grid.size(), 0, grid[0].size());
+        return fifthSolution(grid);
     }
 };
