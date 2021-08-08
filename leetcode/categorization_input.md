@@ -24,6 +24,7 @@ ID problem | Problem | Solution | Remark
 
 ID problem | Problem | Solution | Remark
 ---------- | ------- | ---------| ------
+1351 | https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/ | [1351 solution](1351_Count_Negative_Numbers_in_a_Sorted_Matrix/solution.cpp)|
 
 
 # 3. Array of characters
