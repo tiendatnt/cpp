@@ -12,9 +12,19 @@ private:
         }
         return image;
     }
+    vector<vector<int>> secondSolution(vector<vector<int>>& image) {
+        for (auto& row : image) {
+            reverse(row.begin(), row.end());
+            for (int& ele : row) {
+                ele = 1 - ele;
+            }
+        }
+        return image;
+    }
 
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
-        return firstSolution(image);
+        //return firstSolution(image);
+        return secondSolution(image);
     }
 };
