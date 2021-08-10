@@ -26,6 +26,7 @@ ID problem | Problem | Solution | Remark
 
 ID problem | Problem | Solution | Remark
 ---------- | ------- | ---------| ------
+0832 | https://leetcode.com/problems/flipping-an-image/ | [0832 solution](0832_Flipping_an_Image/solution.cpp)|
 1351 | https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/ | [1351 solution](1351_Count_Negative_Numbers_in_a_Sorted_Matrix/solution.cpp)|
 
 
