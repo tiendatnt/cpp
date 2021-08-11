@@ -70,6 +70,7 @@ ID problem | Problem | Solution | Remark
 
 ID problem | Problem | Solution | Remark
 ---------- | ------- | ---------| ------
+0700 | https://leetcode.com/problems/search-in-a-binary-search-tree/ | [700 solution](0700_Search_in_a_Binary_Search_Tree/solution.cpp)|
 
 
 ## 5.3. Other kinds of tree
