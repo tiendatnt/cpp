@@ -10,8 +10,22 @@
  * };
  */
 class Solution {
+private:
+    TreeNode* firstSolution(TreeNode* root, int val) {
+        if (!root)
+            return nullptr;
+
+        if (root->val < val)
+            return firstSolution(root->right, val);
+
+        if (root->val > val)
+            return firstSolution(root->left, val);
+
+        return root;
+    }
+
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        
+        return firstSolution(root, val);
     }
 };
