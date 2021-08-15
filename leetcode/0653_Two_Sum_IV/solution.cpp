@@ -38,8 +38,35 @@ private:
         return false;
     }
 
+    bool checkElementExist(TreeNode* root, int target) {
+        if (!root)
+            return false;
+
+        if (root->val < target)
+            return checkElementExist(root->right, target);
+
+        if (root->val > target)
+            return checkElementExist(root->left, target);
+
+        return true;
+    }
+    bool secondSolution(TreeNode* root, int k) {
+        if (!root)
+            return false;
+
+        int suplement = k - root->val;
+        if (suplement != root->val && checkElementExist(_root, suplement))
+            return true;
+
+        return secondSolution(root->left, k) || secondSolution(root->right, k);
+    }
+
+    TreeNode* _root;
+
 public:
     bool findTarget(TreeNode* root, int k) {
-        return firstSolution(root, k);
+        //return firstSolution(root, k);
+        _root = root;
+        return secondSolution(root, k);
     }
 };
